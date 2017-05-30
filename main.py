@@ -8,6 +8,7 @@ from PyQt5.Qt import *
 from CurveEditor import *
 
 
+
 def main():
     app = QApplication(sys.argv)
 
@@ -17,8 +18,16 @@ def main():
     w.setWindowTitle('Simple')
     w.show()
 
-   
-    
+
+
+
+
+
+
+
+
+
+
     ce = CurveEditor(w)
 
     # bt1 = QPushButton(ce)
