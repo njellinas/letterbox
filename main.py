@@ -10,7 +10,7 @@ from CurveEditor import *
 
 
 def main():
-    app = QApplication(sys.argv)
+    app1 = QApplication(sys.argv)
 
     w = QWidget()
     w.resize(800, 600)
